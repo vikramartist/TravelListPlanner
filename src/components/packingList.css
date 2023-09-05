@@ -1,0 +1,71 @@
+.itemList{
+    background: url('../../public/assets/items-list-background.jpg') fixed no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.actions{
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.actions #sort{
+    width: 35%;
+    border-style: none;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    font-size: 0.65rem;
+}
+
+ul{
+    padding: 0;
+    margin: 3rem 0;
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width:400px){
+    .itemList{
+        background-size: cover;
+        background-position: left;
+        height: 100vh;
+    }
+
+    ul{
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width:380px){
+    ul{
+        margin-bottom: 6rem;
+    }
+}
+
+@media (max-width:250px){
+    ul{
+        margin-bottom: 1.5rem;
+    }
+}
