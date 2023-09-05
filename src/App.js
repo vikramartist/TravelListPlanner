@@ -4,7 +4,6 @@ import PackingList from "./components/PackingList";
 import Stats from "./components/Stats";
 import { useEffect, useState } from "react";
 import "./styles.css";
-import { v4 as uuid } from "uuid";
 
 const getInitialItems = () => {
   const data = JSON.parse(localStorage.getItem("items"));
